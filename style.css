@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header .content {
+    position: absolute;
+    top: 46px;
+    left: 21px;
+    width: 144.48px;
+    height: 145px;
+    display: flex;
+    gap: 10px;
+}
+
+.header .content h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50.48px;
+    display: flex;
+    margin-right: 4px;
+    margin-top: 30px;
+}
+
+.header .content p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 25px;
+    display: flex;
+
+}
+
+.header .nav {
+    position: absolute;
+    top: 20px;
+    left: 883px;
+    right: 20px;
+    width: 1000px;
+    height: 40px;
+    gap: 10;
+    font-weight: 500;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header .nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header .main-text {
+    position: absolute;
+    bottom: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.header .main-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header .main-text .highlight {
+    background: #A52323EB;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .footer-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.header .footer-text p {
+    font-size: 14px;
+}
+
+.header .footer-text .dots {
+    display: flex;
+    align-items: center;
+}
+
+.header .footer-text .dots i {
+    color: #f0ad4e;
+    margin-right: 5px;
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.wkwk{
+    ba
+}
+
+.slice {
+    background-image: url('img/section\ 2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.slice .quote {
+    height: 1064px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 1440px;
+}
+
+.quote {
+    width: 1265px;
+    height: 243px;
+
+}
+
+.quote p {
+    font-size: 64px;
+    font-weight: 800;
+    color: black;
+    margin: 0;
+}
+
+.quote .highlight {
+    color: #b71c1c;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80.77px;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    margin-top: 89px;
+}
+
+.image-section p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.image-section p i {
+    color: #800000;
+}
+
+.who-we-are {
+    background-color: #800000;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description {
+    color: #800000;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.description strong {
+    color: black;
+}
+
+.btn-daftar {
+    background-color: #001f3f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.highlight {
+    color: #FFF;
+    border-bottom: 2px solid #b71c1c;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('image/lapangan\ copy.jpg');
+    background-size: auto;
+    width: 1440px;
+    height: 773px;
+    top: 3142px;
+    left: -1px;
+    gap: 0px;
+    border-radius: 0px 0px 30px 30px;
+    opacity: 0px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.hero .container .h1 {
+    position: absolute;
+    bottom: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #b71c1c;
+}
+
+.card-text {
+    color: #333;
+}
+
+.footer-section {
+    background: linear-gradient(to top, #b71c1c, #f5f5f5);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-section h5 {
+    font-weight: bold;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+.dropdown-toggle::after {
+    margin-left: 5px;
+}
+
+.who-we-are {
+    background-color: #800000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.who-we-are-text {
+    color: #800000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn-daftar {
+    background-color: #001f3f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-daftar:hover {
+    background-color: #001a35;
+}

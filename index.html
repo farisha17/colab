@@ -1,0 +1,712 @@
+<html>
+
+<head>
+    <title>
+        SMAN 2 Purwakarta
+    </title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .header img {
+            width: 100%;
+            height: auto;
+        }
+
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .header .content {
+            position: absolute;
+            top: 46px;
+            left: 21px;
+            width: 144.48px;
+            height: 145px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .header .content h1 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 50.48px;
+            display: flex;
+            margin-right: 4px;
+            margin-top: 30px;
+        }
+
+        .header .content p {
+            font-size: 20px;
+            font-weight: 500;
+            width: 100%;
+            line-height: 25px;
+            display: flex;
+
+        }
+
+        .header .nav {
+            position: absolute;
+            top: 20px;
+            left: 883px;
+            right: 20px;
+            width: 1000px;
+            height: 40px;
+            gap: 10;
+            font-weight: 500;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .header .nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .header .main-text {
+            position: absolute;
+            bottom: 500px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        .header .main-text h2 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .header .main-text .highlight {
+            background: #A52323EB;
+            padding: 5px 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header .footer-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+        }
+
+        .header .footer-text p {
+            font-size: 14px;
+        }
+
+        .header .footer-text .dots {
+            display: flex;
+            align-items: center;
+        }
+
+        .header .footer-text .dots i {
+            color: #f0ad4e;
+            margin-right: 5px;
+        }
+
+        .header .arrow {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            color: white;
+        }
+
+        .wkwk {
+            background-image: url(image/image\ 14.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wkwk p {
+            width: 1200px;
+            font-size: 55px;
+            font-weight: 800;
+            color: black;
+            text-align: center;
+            margin: 0;
+        }
+
+        .wkwk .highlight {
+            color: #b71c1c;
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 80.77px;
+            align-items: center;
+        }
+
+        .wkwkwk {
+            background-image: url(image/Snapinsta.app_353407863_983813329472473_2332437263260786007_n_1080\ 1\ \(1\).png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wkwkwk p {
+            width: 1200px;
+            font-size: 55px;
+            font-weight: 800;
+            color: black;
+            text-align: center;
+            margin: 0;
+        }
+
+        .wkwkwk .highlight {
+            color: #b71c1c;
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 80.77px;
+            align-items: center;
+        }
+
+        .slice {
+            background-image: url('img/section\ 2.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .slice .quote {
+            height: 1064px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            width: 1440px;
+        }
+
+        .quote {
+            width: 1065px;
+            height: 243px;
+
+        }
+
+        .quote p {
+            font-size: 64px;
+            font-weight: 800;
+            color: black;
+            margin: 0;
+        }
+
+        .quote .highlight {
+            color: #b71c1c;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 80.77px;
+            align-items: center;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #800000;
+            margin-bottom: 20px;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            margin-top: 89px;
+        }
+
+        .image-section p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .image-section p i {
+            color: #800000;
+        }
+
+        .who-we-are {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .description {
+            color: #800000;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .description strong {
+            color: black;
+        }
+
+        .btn-daftar {
+            background-color: #001f3f;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .highlight {
+            color: #FFF;
+            border-bottom: 2px solid #b71c1c;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('image/lapangan\ copy.jpg');
+            background-size: auto;
+            width: 1440px;
+            height: 773px;
+            top: 3142px;
+            left: -1px;
+            gap: 0px;
+            border-radius: 0px 0px 30px 30px;
+            opacity: 0px;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .hero .container .h1 {
+            position: absolute;
+            bottom: 500px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+
+        }
+
+
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #b71c1c;
+        }
+
+        .card-text {
+            color: #333;
+        }
+
+        .footer-section {
+            background: linear-gradient(to top, #b71c1c, #f5f5f5);
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer-section h5 {
+            font-weight: bold;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #800000;
+            margin-bottom: 20px;
+        }
+
+        .dropdown-toggle::after {
+            margin-left: 5px;
+        }
+
+        .who-we-are {
+            background-color: #800000;
+            color: white;
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .who-we-are-text {
+            color: #800000;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .btn-daftar {
+            background-color: #001f3f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .btn-daftar:hover {
+            background-color: #001a35;
+        }
+
+        .iya{
+            background-image: url(image/image.png);
+            height: 780px;
+            width: 100%;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            margin-bottom: 120px;
+            padding-bottom: 80px;
+        }
+        .iya h1{
+            width: 1200px;
+            font-size: 55px;
+            font-weight: 800;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .iya p{
+            width: 830px;
+            font-size: 20px;
+            font-weight: 800;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img alt="Group of students in red blazers and white hijabs" src="img/bg.svg" />
+        <div class="overlay">
+        </div>
+        <div class="content">
+            <img alt="School logo" src="img/logo_smanda-removebg-preview 2.svg" />
+            <div class="hehe">
+                <h1 style="width: 600px;">
+                    SMAN 2 PURWAKARTA
+                </h1>
+                <div class="tombol" style="display: flex;">
+                    <p>Generasi, Kreatif, Inovatif dan Tangguh</p>
+                </div>
+            </div>
+            <div class="hehh" style="margin-left: 300px;">
+                <div style="display: flex;justify-content: end;gap: 30px;margin-top: 40px;">
+                    <h4>profile</h4>
+                    <h4>kesiswaan</h4>
+                    <h4>berita</h4>
+                </div>
+            </div>
+        </div>
+        <div class="main-text">
+            <p>
+                DISCOVER
+                <span class="highlight">
+                    YOUR
+                </span>
+            </p>
+            <h2>
+                ORGANITATION
+            </h2>
+        </div>
+        <div class="footer-text">
+            <div class="dots">
+                <i class="fas fa-circle">
+                </i>
+                <i class="fas fa-circle">
+                </i>
+                <i class="fas fa-circle">
+                </i>
+            </div>
+            <p>
+                Sekolah persiapan perguruan tinggi dengan segudang prestasi, memiliki akreditasi A sekolah ter Favorite
+                di Purwakarta.
+            </p>
+        </div>
+        <div class="arrow">
+            <i class="fas fa-chevron-down">
+            </i>
+        </div>
+    </div>
+
+    <div class="wkwk">
+        <p>"Mengantarkan siswa pada perjalanan menuju masa depan yang penuh <span class="highlight">prestasi dan
+                peluang tanpa batas.</span>"</p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img alt="Group of people in fashion attire" class="img-fluid" height="200" src="image/baju pink 3.png"
+                    width="300" />
+                <div class="section-title">
+                    Fashion
+                    <i class="fas fa-caret-down">
+                    </i>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img alt="Group of people in theater attire" class="img-fluid" height="200" src="image/ijo.png"
+                    width="300" />
+                <div class="section-title">
+                    Theater
+                    <i class="fas fa-caret-down">
+                    </i>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img alt="Group of people in community attire" class="img-fluid" height="200" src="image/mring.png"
+                    width="300" />
+                <div class="section-title">
+                    Comunity
+                    <i class="fas fa-caret-down">
+                    </i>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img alt="Group of students in school uniform in front of a school building" class="img-fluid"
+                    height="400" src="image/Snapinsta.app_395316016_1509260909892550_8071428265062584842_n_1080 2.png"
+                    width="600" />
+            </div>
+            <div class="col-md-6">
+                <div class="who-we-are">
+                    Who We Are
+                </div>
+                <p class="who-we-are-text">
+                    SMAN 2 Purwakarta memiliki tujuan, yaitu dalam Mewujudkan iklim belajar yang kondusif, selalu
+                    berusaha melengkapi sarana prasarana khususnya sarana prasarana pengembangan ruangan belajar,
+                    meningkatkan partisipasi orang tua untuk terlaksananya program sekolah.
+                </p>
+                <p class="who-we-are-text">
+                    Melaksanakan pembelajaran team teaching untuk meningkatkan mutu pembelajaran, membekali keterampilan
+                    komputer bagi siswa untuk menunjang mata pelajaran dan menghadapi perkembangan IPTEK, dan
+                    Mengembangkan pembelajaran yang berorientasi kepada KTSP ( Kurikulum Tingkat Satuan Pendidikan ).
+                </p>
+                <button class="btn-daftar">
+                    DAFTAR
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="wkwkwk">
+        <p>"Siapkan dirimu untuk menguasai dunia dengan pendidikan menengah yang akan membawamu ke <span
+                class="highlight">puncak kesuksesan.</span>"</p>
+    </div>
+
+    <div class="iya">
+        <h1>MPK</h1>
+        <p>Menjadi bagian dari penegak keadilan dan ketertiban pada lingkungan adalah salah satu tindakan
+            yang sangat membanggakan, melatih bertindak bijak dalam problem solving sangat dibutuhkan pada
+            kehidupan sehari hari.</p>
+    </div>
+
+    <!-- <div class="carousel slide" data-bs-ride="carousel" id="carouselEx  ample">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="Group of students in red blazers" class="d-block w-100" height="1024px"
+                    src="image/abil merah.jpg" width="1440px" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>
+                        MPK
+                    </h1>
+                    <p>
+                        Menjadi bagian dari penegak keadilan dan ketertiban pada lingkungan adalah salah satu tindakan
+                        yang sangat membanggakan, melatih bertindak bijak dalam problem solving sangat dibutuhkan pada
+                        kehidupan sehari hari.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExample" type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon">
+            </span>
+            <span class="visually-hidden">
+                Previous
+            </span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExample" type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon">
+            </span>
+            <span class="visually-hidden">
+                Next
+            </span>
+        </button>
+    </div> -->
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img alt="foto abil" class="card-img-top" src="image/abil tangan keatas.jpg" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            SBF (SMANDA BIRTHDAY FESTIVAL): MENGUNDANG JUICY LUICY...
+                        </h5>
+                        <p class="card-text">
+                            Pada SBF tahun ini smanda meriahkan dengan Band yang sedang naik daun dan tidak pernah absen
+                            dengan favorit siswa yaitu dj, event ini terlaksana dengan baik sehingga suasana sangat
+                            meriah...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img alt="Image of students during the 12th grade practical exam" class="card-img-top"
+                        src="image/lapangan.jpg" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            UJIAN PRAKTEK KELAS 12: DIAKHIR PERJUANGAN MERAIH KELULUSAN
+                        </h5>
+                        <p class="card-text">
+                            Hari pertama ujian praktek kelas 12, memberikan kesan yang menegangkan karena memberikan
+                            dampak yang besar pada ijazah yang akan terpakai untuk melanjutkan karir, siswa/siswi
+                            terlihat begitu fokus dan banyak berlatih memperjuangkan hasil terbaik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img alt="Image of students on a study tour to Malang-Jogja" class="card-img-top"
+                        src="image/spanduk abil.jpg" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            STUDY TOUR: MALANG-JOGJA, BROMO MENJADI DESTINASI FAVORIT
+                        </h5>
+                        <p class="card-text">
+                            Angkatan 43 telah melaksanakan study tour dengan tujuan Malang-Jogja selama 4 hari 3 malam
+                            perjalanan yang panjang mereka nikmati dengan syahdu, kebersamaan yang tidak akan terulang.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section mt-5" style="color: black;padding-top: 80px;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>
+                        SEJARAH
+                    </h5>
+                    <p>
+                        Berdiri pada tanggal 3 September 1979 berdasarkan SK pendirian Menteri Pendidikan dan Kebudayaan
+                        RI dengan No Statistik Sekolah (NISS): 3010220001002, dalam kurun waktu 29 tahun SMAN 2
+                        Purwakarta telah dipimpin oleh 11 orang Kepala Sekolah.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>
+                        TAUTAN PENTING
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="#" class="text-black">
+                                Kementerian Pendidikan Republik Indonesia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black">
+                                Sasaran Kinerja Pegawai (SKP) Jawa Barat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black">
+                                Direktorat Pembinaan SMA Kemdikbud
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black">
+                                Balai Tikomdik Dinas Pendidikan Jawa Barat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>
+                        HUBUNGI KAMI
+                    </h5>
+                    <p>
+                        Jl. Raya Sadang-Subang No.17, Ciseureuh, Kec. Purwakarta, Kabupaten Purwakarta, Jawa Barat 41118
+                    </p>
+                    <p>
+                        info@sman2pwk.sch.id
+                    </p>
+                    <p>
+                        (0264) 201072
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
